@@ -3,40 +3,44 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://demo.avactis.com/4.7.9/" />
-<title>19</title>
+<link rel="selenium.base" href="http://demo.avactis.com/" />
+<title>Login-T,F</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">19</td></tr>
+<tr><td rowspan="1" colspan="3">Login-T,F</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/4.7.9/change-password.php</td>
+	<td>/4.7.9/sign-in.php?timestamp=1462554101</td>
 	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=account_change_password_form_current_password_id</td>
-	<td>123</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=account_change_password_form_new_password_id</td>
-	<td>xyz</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=account_change_password_form_retype_password_id</td>
-	<td>xyz</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//input[@value='Continue']</td>
+	<td>css=a.site-logo</td>
 	<td></td>
 </tr>
-
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign In</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=account_sign_in_form_email_id</td>
+	<td>wondimubilen@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=account_sign_in_form_passwd_id</td>
+	<td>xxxx</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Sign In']</td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>

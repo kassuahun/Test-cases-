@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="change password-inputs">change password-inputs</a></td></tr>
+<tr><td><a href="change password - Empty inputs">change password - Empty inputs</a></td></tr>
+<tr><td><a href="login-false,fasle">login-false,fasle</a></td></tr>
+<tr><td><a href="login-false,true">login-false,true</a></td></tr>
+<tr><td><a href="negative test final">Login-true,false</a></td></tr>
+<tr><td><a href="../../login-true,empty2">login -true empty</a></td></tr>
+<tr><td><a href="../../login-empty,true2">login-empty,true</a></td></tr>
+</tbody></table>
+</body>
+</html>

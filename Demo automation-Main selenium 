@@ -8,14 +8,12 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="14">14</a></td></tr>
-<tr><td><a href="15">15</a></td></tr>
-<tr><td><a href="16">16</a></td></tr>
-<tr><td><a href="17">17</a></td></tr>
-<tr><td><a href="18">18</a></td></tr>
-<tr><td><a href="19">19</a></td></tr>
-<tr><td><a href="20">20</a></td></tr>
-<tr><td><a href="21">21</a></td></tr>
+<tr><td><a href="demo site -automation">Log In</a></td></tr>
+<tr><td><a href="Select item">shopping cart - add item</a></td></tr>
+<tr><td><a href="remove item">shopping cart - remove</a></td></tr>
+<tr><td><a href="continue shopping">continue shopping</a></td></tr>
+<tr><td><a href="checkout">checkout</a></td></tr>
+<tr><td><a href="log out">log out</a></td></tr>
 </tbody></table>
 </body>
 </html>
